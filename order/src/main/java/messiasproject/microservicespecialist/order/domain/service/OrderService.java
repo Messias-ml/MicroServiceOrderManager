@@ -18,11 +18,7 @@ import org.springframework.stereotype.Service;
 @RequiredArgsConstructor
 public class OrderService {
 
-    private final OrderRepository repository;
-
     private final ReciveOrder reciveOrder;
-
-    private final UpdateOrder updateOrder;
 
     private final SearchOrderByUuid searchOrderByUuid;
 
@@ -39,4 +35,5 @@ public class OrderService {
     public Page<OrderRepresentation> searchOrderByData(Pageable page, OrderFilterSpec orderFilterSpec) {
         return searchOrderByData.search(page, orderFilterSpec);
     }
+
 }

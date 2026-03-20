@@ -12,7 +12,7 @@ spring:
       ddl-auto: create
     show-sql: true
   rabbitmq:
-    addresses: amqps://fbajhapf:ERHBZPicJ7msBABe4lx-zUYiXmMb_bA8@jackal.rmq.cloudamqp.com/fbajhapf
+    addresses: amqps://nsomoljq:vX9FivMoHor7G1WWHWHxQSywGQH-I_Hh@jaragua.lmq.cloudamqp.com/nsomoljq
 
 server:
   port: 0

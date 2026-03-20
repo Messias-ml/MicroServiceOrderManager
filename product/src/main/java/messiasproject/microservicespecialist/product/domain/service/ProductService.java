@@ -33,6 +33,7 @@ public class ProductService {
 
     @Cacheable(value = "productByUuid", key = "#uuid")
     public ProductRepresentation findByUuid(String uuid){
+        System.out.println("não cacheou uuid");
         return findProductByUuid.find(uuid);
     }
 }
